@@ -1,0 +1,22 @@
+.sidebarContainer {
+	background-color: #eeeeee;
+	width: calc(0.33 * 100vw);
+	height: 100%;
+}
+
+.titleContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: fit-content;
+	padding: 12px;
+}
+
+.title {
+	margin: 0;
+}
+
+.addMessage:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export PICO_SDK_PATH=../../pico-sdk
+
+cd build
+
+cmake -DPICO_BOARD=pico_w -DWIFI_SSID="TEAM23" -DWIFI_PASSWORD="12345678" ..
+
+cp capstone.uf2 /media/anthony/RPI-RP2/
+
+make
+

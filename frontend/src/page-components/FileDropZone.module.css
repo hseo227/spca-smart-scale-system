@@ -1,0 +1,58 @@
+.dropBox {
+  padding: 20px;
+  border-color: #808080;
+  border-style: dashed;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.uploadView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploadedView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.uploadedfileText {
+  position: relative;
+  margin: 0px;
+  padding: 10px 0px 10px 20px;
+  font-size: 16px;
+  color: #808080;
+}
+
+.dropBox:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.focusText {
+  position: relative;
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ca3ff3;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+}
+
+.closeIcon {
+  display: block;
+  margin-left: auto;
+}
+
+.previewImg {
+  height: 40px;
+}
+
+p {
+  color: #666666;
+}

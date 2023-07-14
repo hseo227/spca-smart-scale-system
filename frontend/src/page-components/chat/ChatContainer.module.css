@@ -1,0 +1,28 @@
+.searchResults {
+  max-height: calc(0.3 * 100%);
+  width: calc(0.4 * 100%);
+  border-radius: 12px;
+  border: 2px solid #808080;
+  margin-left: 40px;
+  padding: 8px;
+}
+
+.searchResultItem {
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchResultItem:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+  transition: 0.2s;
+}
+
+.chatInput {
+  border-top: 2px solid #eeeeee;
+  padding: 12px;
+  display: flex;
+}

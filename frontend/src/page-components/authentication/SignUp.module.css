@@ -1,0 +1,53 @@
+.pageContainer {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(0.4 * 100vw);
+  gap: 16px;
+  align-self: center;
+}
+
+.signUpButton {
+  width: 100%;
+  background-color: #1378c6;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 15px;
+  margin: 20px;
+}
+
+.signUpButton:hover {
+  cursor: pointer;
+  background-color: #358bcd;
+  transition: 0.2s;
+}
+
+.authenticationDecoration {
+  position: absolute;
+  width: 100%;
+  top: calc(0.6 * 100vh);
+}

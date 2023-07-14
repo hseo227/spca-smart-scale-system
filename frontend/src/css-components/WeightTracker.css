@@ -1,0 +1,56 @@
+.weight-tracker {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-div {
+  width: 70%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#data-graph {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: 4px solid #1378c6;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.weigh-button:hover {
+  background-color: rgba(
+    19,
+    120,
+    198,
+    0.8
+  ); /* Update the hover background color to use rgba with higher opacity */
+}
+
+.popup-container {
+  position: relative;
+}
+
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: 1;
+  pointer-events: none; /* Make the background non-interactable */
+}
+
+.popup-content {
+  position: relative;
+  z-index: 2; /* Ensure the popup content appears above the background */
+}

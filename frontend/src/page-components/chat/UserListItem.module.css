@@ -1,0 +1,24 @@
+.listItemContainer {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.listItemContainer:hover {
+  background-color: #e5e4e2;
+  cursor: pointer;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  width: calc(0.25 * 100vw);
+}
+
+.messageDetails {
+  color: #808080;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

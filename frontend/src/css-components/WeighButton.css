@@ -1,0 +1,13 @@
+.weigh-button {
+  background-color: #1378c6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex; /* Set display to flex */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  font-size: 16px;
+}

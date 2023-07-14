@@ -1,0 +1,118 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-in -out;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.cardContainer:hover {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+}
+
+.imageContainer {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.imageContainer img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.cardContentContainer {
+  flex-grow: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardContentContainer p {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.dogName {
+  font-size: 28px;
+  font-weight: bolder;
+  color: black;
+}
+.dogGender {
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+.dogAge {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+.dogCentre {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+
+.extraButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end; /* Align items to the top right corner */
+  padding: 10px;
+  position: relative; /* Add position: relative for absolute positioning */
+}
+
+.extraButtons button {
+  margin: 5px 0;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.extraButtons button:focus {
+  outline: none;
+}
+.extraButtons button:hover {
+  outline: none;
+  text-decoration: underline;
+}
+
+.editButton svg,
+.deleteButton {
+  vertical-align: middle;
+}
+
+.deleteButton {
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-right: 30px;
+  color: red;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.editButton {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.editButton:hover {
+  transform: scale(1.2);
+}

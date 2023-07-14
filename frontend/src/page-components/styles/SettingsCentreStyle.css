@@ -1,0 +1,168 @@
+.pageContainer {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  padding: 20px;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  margin: 0 0 20px 0;
+}
+
+.pageHeader h1 {
+  font-size: 38px;
+  margin: 0;
+}
+
+.scaleButton {
+  font-size: 16px;
+  width: auto;
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background-color: #ff9c04;
+  outline: none;
+  font-weight: bold;
+}
+
+.scaleButton:hover {
+  transform: scale(1.1);
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  z-index: -1;
+}
+
+.pageContent {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 1;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 0px;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  position: relative; /* Add this */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 25%;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+}
+
+.closeButton:hover {
+  color: red;
+}
+
+.modalContent Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalContent label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+.modalContent input {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.submitButton {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  align-self: flex-end;
+  background-color: #1378c6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.modalConfirmationContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalConfirmationContent {
+  position: relative; /* Add this */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+}

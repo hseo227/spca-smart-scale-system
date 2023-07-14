@@ -1,0 +1,83 @@
+.pageContainer {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(0.4 * 100vw);
+  gap: 20px;
+  align-self: center;
+}
+
+.loginButton {
+  width: 100%;
+  background-color: #1378c6;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+  font-size: 15px;
+  margin: 25px;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+  background-color: #1378c6;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.or {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  color: #808080;
+}
+
+span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.signUpContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.signUp {
+  color: #1378c6;
+}
+
+.signUp:hover {
+  cursor: pointer;
+  color: #358bcd;
+  transition: 0.2s;
+}
+
+.authenticationDecoration {
+  position: absolute;
+  width: 100%;
+  top: calc(0.6 * 100vh);
+}
